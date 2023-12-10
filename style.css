@@ -1,0 +1,56 @@
+body{
+padding: 10%;
+background-color: #20150F;
+}
+div{
+
+    text-align: center;
+}
+label{
+    font-size: 200px;
+    font-weight:bolder;
+    color: #E1A310;
+        text-shadow: 8px 0px white;
+        /* text-shadow: 2px 4px green , 4px 8px red,6px 12px #E1A310 ; */
+
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+label:hover{
+    /* text-shadow: 1px 1.5px green , 2px 3px red; */
+ animation-name: go;
+ animation-duration: 5s;
+ animation-fill-mode: forwards;
+
+}
+
+/* @keyframes go{
+0%{
+    text-shadow: 1px 1.5px white , 2px 3px white;
+    
+}
+100%{
+    text-shadow: 50px 200px white , 100px 400px white;
+    
+}
+} */
+
+
+@keyframes go{
+    0%{
+        text-shadow: 1px 1.5px white , 2px 3px white;
+    }
+    25%{
+        text-shadow: 100px 400px green, 50px 200px rgba(165, 42, 42, 0.363),500px 0px #E1A310 ;
+    }
+    50%{
+        text-shadow: 100px 400px green, -500px 200px rgba(165, 42, 42, 0.363),600px 300px #E1A310 ;
+    }
+    75%{
+        text-shadow:50px 200px green, -500px 400px rgba(165, 42, 42, 0.363),600px 600px #E1A310 ;
+    }
+    100%{
+        text-shadow: 50px 200px green , 100px 400px rgba(165, 42, 42, 0.363),150px 600px #E1A310 ; 
+    }
+    }
